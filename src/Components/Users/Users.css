@@ -1,0 +1,40 @@
+.single-user {
+    display: flex;
+    align-items: center;
+}
+
+.user-details {
+    width: 60%;
+}
+
+.img-container {
+    width: 20%;
+}
+
+.img-container img {
+    height: 150px;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+.add-button {
+    width: 20%;
+}
+
+.add-button button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: darkslategray;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.add-button button:hover {
+    background-color: black;
+    color: white;
+}
+
+.add-button button:focus {
+    outline: none;
+}
